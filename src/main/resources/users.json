@@ -1,0 +1,106 @@
+[
+  {
+    "userId": 1,
+    "userName": "Fiorella",
+    "followeds": [
+      {
+        "userId": 3,
+        "userName": "Matias"
+      }
+    ],
+    "followers": [],
+    "listPost": []
+  },
+  {
+    "userId": 2,
+    "userName": "Tomas",
+    "followeds": [],
+    "followers": [
+      {
+        "userId": 4,
+        "userName": "Meii"
+      }
+    ],
+    "listPost": []
+  },
+  {
+    "userId": 3,
+    "userName": "Matias",
+    "followeds": [
+      {
+        "userId": 2,
+        "userName": "Tomas"
+      },
+      {
+        "userId": "1",
+        "userName": "Fiorella"
+      }
+    ],
+    "followers": [],
+    "listPost": [
+      {
+        "userId": 1,
+        "date": "2021-06-09T19:03:24.329+00:00",
+        "detail":
+        {
+          "productName": "Camiseta de Racing",
+          "type": "Ropa",
+          "brand": "Kappa",
+          "color": "Celeste y blanca",
+          "notes": "Vamos la acade"
+        },
+        "category": 22,
+        "price": 6000.0
+      },
+      {
+        "userId": 1,
+        "date": "2021-01-01T19:03:24.329+00:00",
+        "detail":
+        {
+          "productName": "Camiseta de Racing",
+          "type": "Ropa",
+          "brand": "Kappa",
+          "color": "Celeste y blanca",
+          "notes": "Vamos la acade"
+        },
+        "category": 22,
+        "price": 6000.0
+      }
+    ]
+  },
+  {
+    "userId": 4,
+    "userName": "Meii",
+    "followeds": [],
+    "followers": [],
+    "listPost": []
+  },
+  {
+    "userId": 5,
+    "userName": "Cliente5",
+    "followeds": [],
+    "followers": [],
+    "listPost": []
+  },
+  {
+    "userId": 6,
+    "userName": "Cliente6",
+    "followeds": [],
+    "followers": [],
+    "listPost": []
+  },
+  {
+    "userId": 7,
+    "userName": "Cliente7",
+    "followeds": [],
+    "followers": [],
+    "listPost": []
+  },
+  {
+    "userId": 8,
+    "userName": "Cliente8",
+    "followeds": [],
+    "followers": [],
+    "listPost": []
+  }
+]
